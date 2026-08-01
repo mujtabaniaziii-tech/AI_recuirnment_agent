@@ -17,7 +17,16 @@ An intelligent, fully automated AI-driven recruitment application that streamlin
 * **Integrations:** Google Calendar API, Google Meet API
 * **Other Tools:** PyPDF2, pdfplumber
 
-## 🚀 How It Works
-1. Enter the job description and upload candidate resumes (PDF).
-2. Enable "Auto-Pilot".
-3. The AI evaluates all candidates, selects the best fit, and emails them a Google Meet invite instantly!
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project on your local machine:
+
+### 1. Prerequisites
+* Python 3.9+ installed on your system.
+* A Google Gemini API Key.
+* Google Cloud Console account with **Google Calendar API** enabled (download your `credentials.json`).
+
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/mujtabaniaziii-tech/AI_recuirnment_agent.git](https://github.com/mujtabaniaziii-tech/AI_recuirnment_agent.git)
+cd AI_recuirnment_agent
