@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+google-generativeai
+PyPDF2
+python-dotenv
+sqlalchemy
+python-multipart

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Recruitment Agent</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>AI Recruitment Agent</h1>
+    <p>Job description daaliye, resumes add karain, aur AI se analyze karwain</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <label for="jobDesc">Job Description</label>
+      <textarea id="jobDesc" placeholder="Job description yahan paste karain..."></textarea>
+    </section>
+
+    <section class="card">
+      <h2>Candidates</h2>
+      <div id="candidateList"></div>
+      <button id="addCandidateBtn">+ Add Candidate</button>
+    </section>
+
+    <section class="card">
+      <button id="analyzeBtn">Analyze Candidates</button>
+      <div id="results"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
